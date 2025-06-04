@@ -22,6 +22,9 @@ brew install pipx
 brew tap weaveworks/tap
 brew install weaveworks/tap/eksctl
 
+# flux
+brew install fluxcd/tap/flux
+
 # copier
 pipx install copier
 ```
