@@ -14,15 +14,15 @@ The project template is located here
 ## Install software
 
 ```bash
-#
 # Dependencies
-#
 brew install python3
-brew intsall pipx
+brew install pipx
 
-#
-# Install copier
-#
+# eksctl
+brew tap weaveworks/tap
+brew install weaveworks/tap/eksctl
+
+# copier
 pipx install copier
 ```
 
