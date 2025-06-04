@@ -1,0 +1,25 @@
+# Changes here will be overwritten by Copier
+_commit: 7f65f6c
+_src_path: gh:myspotontheweb/fluxcd-copier-template
+clusters:
+-   apps: apps/dev
+    infrastructure:
+        configs: null
+        controllers: null
+    name: dev1
+    region: eu-west-1
+-   apps: apps/staging
+    infrastructure:
+        configs: null
+        controllers: null
+    name: staging1
+    region: eu-west-1
+-   apps: apps/prod
+    infrastructure:
+        configs: null
+        controllers: null
+    name: prod1
+    region: eu-west-1
+gitops_repository:
+    owner: myspotontheweb
+    repository: fluxcd-copier-demo
