@@ -32,6 +32,15 @@ pipx install copier
 copier copy gh:myspotontheweb/fluxcd-copier-template . --defaults --exclude LICENSE --exclude README.md
 ```
 
+## Create a cluster
+
+```
+export AWS_PROFILE=development
+export GITHUB_TOKEN=$(gh auth token)
+
+eksctl create cluster -f bootstrap/eks/cluster-dev1.yaml
+```
+
 ## Update content
 
 ```bash
