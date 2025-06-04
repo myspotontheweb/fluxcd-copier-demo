@@ -29,7 +29,7 @@ pipx install copier
 ## Generate content
 
 ```bash
-copier copy gh:myspotontheweb/fluxcd-copier-template . --defaults --exclude LICENSE --exclude README.md
+copier copy gh:myspotontheweb/fluxcd-copier-template . --exclude LICENSE --exclude README.md
 ```
 
 ## Create a cluster
