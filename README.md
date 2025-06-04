@@ -29,7 +29,17 @@ pipx install copier
 ## Generate content
 
 ```bash
+#
+# Generate project files
+#
 copier copy gh:myspotontheweb/fluxcd-copier-template . --exclude LICENSE --exclude README.md
+
+#
+# Save files to git
+#
+git add .
+git commit -am "Save generated files"
+git push
 ```
 
 ## Create a cluster
