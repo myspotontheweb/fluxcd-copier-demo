@@ -24,6 +24,9 @@ brew install weaveworks/tap/eksctl
 
 # flux
 brew install fluxcd/tap/flux
+
+# Github cli
+brew install gh
 ```
 
 ## Generate content
