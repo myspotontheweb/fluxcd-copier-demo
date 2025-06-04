@@ -44,5 +44,5 @@ eksctl create cluster -f bootstrap/eks/cluster-dev1.yaml
 ## Update content
 
 ```bash
-copier update --defaults
+copier update --defaults --exclude LICENSE --exclude README.md
 ```
