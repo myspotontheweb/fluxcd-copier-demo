@@ -14,16 +14,16 @@ The project template is located here
 ## Install software
 
 ```bash
+# copier
+brew install pipx
+pipx install copier
+
 # eksctl
 brew tap weaveworks/tap
 brew install weaveworks/tap/eksctl
 
 # flux
 brew install fluxcd/tap/flux
-
-# copier
-brew install pipx
-pipx install copier
 ```
 
 ## Generate content
